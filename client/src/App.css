@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+
+.NavBar {
+  margin-bottom: 15px;
+}
+
+.jumbotron {
+  background-color: #1F95C8;
+  /* opacity: 0.9; */
+  /*background: #DBE6F6;  /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(to right, #1F95C8, #DBE6F6);  /* Chrome 10-25, Safari 5.1-6 */  
+  /*background: linear-gradient(to right, #1F95C8, #DBE6F6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.jumbotron h1 {
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+}

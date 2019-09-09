@@ -1,0 +1,31 @@
+body {
+    /* background-color: grey; */
+}
+span.vertical-timeline-element-icon {
+    background-color: #40B0E1;
+    /* #137A95 */
+    cursor: pointer;
+}
+.vertical-timeline-element-content {
+    box-shadow: none;
+}
+div.vertical-timeline.vertical-timeline--animate {
+    /* margin-top: 0px; */
+    /* margin-bottom: 0px; */
+}
+
+.vertical-timeline::before {
+    background-color: black;
+}
+.vertical-timeline-element:nth-child(2n+1) span.vertical-timeline-element-date {
+    margin-left: 8%;
+}
+.vertical-timeline-element:nth-child(2n) span.vertical-timeline-element-date {
+    margin-right: 8%;
+}
+span.vertical-timeline-element-date {
+    text-align: center !important;
+}
+img.newsimage {
+    cursor: pointer;
+}

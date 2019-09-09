@@ -1,0 +1,62 @@
+h1.title {
+    text-align: center;
+    font-family: "Montserrat";
+    height: 400px;
+    /* object-fit: cover !important; */
+    height: 100%;
+    padding-top: 18%;
+    padding-bottom: 18%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+h1.title a {
+    color: white;
+}
+.content {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.page {
+    font-family: Lora;
+}
+
+.wordcloud-card {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.wordcloud-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.wordcloud-card .wordcloud-title{
+    text-align: center;
+    font-family: Lora;
+
+}
+.wordcloud-card-list {
+    text-align: center;
+}
+.wordcloud-card-list .wordcloud-card {
+    margin: 20px;
+}
+.news-metrics {
+    text-align: center;
+}
+.paper-root {
+    display: inline-block;
+    width: 50%;
+}
+.tweet-display{
+    display: inline-block;
+}
+.tweet-display twitter-widget {
+    margin: 0 !important;
+}
+.paper-tweet {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

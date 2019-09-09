@@ -1,0 +1,37 @@
+.home-card {
+    width: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.home-card img {
+    height: 200px;
+
+}
+.news-card{
+    width: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.news-card img {
+    height: 200px;
+}
+.news-card .card-content{
+    height: 70px;
+}
+.top-card{
+    width: 100%;
+    text-align: center;
+}
+.top-card img {
+    height: 300px;
+}
+
+.media {
+    object-fit: cover;
+}
