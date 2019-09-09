@@ -1,0 +1,19 @@
+{
+  "name": "newsmonitorapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently - kill-others 'npm run server' 'npm run client'",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "build": "cd client && npm install && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.2"
+  }
+}
