@@ -31,6 +31,7 @@ app.use("/api/news", newsRouter);
 if (NODE_ENV == "production") {
   // serve front end files
   app.use(express.static(path.join(__dirname, "../client/build")));
+  // /* is used to capture client routing like news/news_id
   app.get("/*", (req, res) => {
     res.sendFile(path.join(__dirname, "../client/build/index.html"));
   });
