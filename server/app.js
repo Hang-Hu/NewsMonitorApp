@@ -3,6 +3,8 @@ var express = require("express");
 var path = require("path");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
+// if NODE_ENV not specified then it's production
+const NODE_ENV = process.env.NODE_ENV || "production";
 
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
@@ -26,11 +28,13 @@ app.use("/", indexRouter);
 app.use("/api/users", usersRouter);
 app.use("/api/news", newsRouter);
 
-// serve front end files
-app.use(express.static(path.join(__dirname, "../client/build")));
-app.get("/*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../client/build/index.html"));
-});
+if (NODE_ENV == "production") {
+  // serve front end files
+  app.use(express.static(path.join(__dirname, "../client/build")));
+  app.get("/*", (req, res) => {
+    res.sendFile(path.join(__dirname, "../client/build/index.html"));
+  });
+}
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

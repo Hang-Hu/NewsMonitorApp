@@ -8,6 +8,7 @@
     "server": "cd server && npm start",
     "client": "cd client && npm start",
     "build": "cd client && npm install && npm run build",
+    "production": "cd server && npm run production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

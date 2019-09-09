@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www",
-    "prod": "node ./bin/www"
+    "start": "NODE_ENV=development nodemon ./bin/www",
+    "production": "node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
