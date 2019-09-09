@@ -4,7 +4,6 @@ import NavBar from "./components/NavBar";
 import TimeLine from "./timeline/TimeLine";
 import NewsPage from "./news/NewsPage";
 import NewsBundlePage from "./bundle/NewsBundlePage";
-import Jumbotron from "./components/Jumbotron";
 import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
 import NotFoundPage from "./components/NotFoundPage";
 import HomePage from "./homepage/HomePage";
