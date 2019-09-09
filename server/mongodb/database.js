@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
-const server = "localhost:27017";
+const URI = process.env.MONGODB_URI || "mongodb://localhost:27017";
+
 const database = "fakenews";
 class Database {
   constructor() {
@@ -8,7 +9,7 @@ class Database {
   }
   _connect() {
     mongoose
-      .connect(`mongodb://${server}/${database}`)
+      .connect(`${URI}/${database}`)
       .then(() => {
         console.log("Successfully connects to MongoDB.");
       })
