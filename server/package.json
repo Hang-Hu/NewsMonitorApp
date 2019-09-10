@@ -1,9 +1,9 @@
 {
-  "name": "fake-news-backend-express",
+  "name": "server",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "NODE_ENV=development nodemon ./bin/www",
+    "start": "nodemon ./bin/www",
     "production": "node ./bin/www"
   },
   "dependencies": {
