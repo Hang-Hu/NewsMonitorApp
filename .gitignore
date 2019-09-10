@@ -1,3 +1,4 @@
 server/mongodb/json/
 node_modules
 client/build/*
+.env
