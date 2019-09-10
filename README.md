@@ -1,6 +1,6 @@
 # NewsMonitorApp
 
-[Heroku](https://news-monitor-app.herokuapp.com)
+<a href="https://news-monitor-app.herokuapp.com" target="_blank"><img src="https://heroku-badge.herokuapp.com/?app=news-monitor-app" alt="heroku badge" /></a>
 
 ## Deployment
 
