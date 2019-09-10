@@ -24,11 +24,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-app.use("/", indexRouter);
+app.use("/api/", indexRouter);
 app.use("/api/users", usersRouter);
 app.use("/api/news", newsRouter);
 
 if (NODE_ENV == "production") {
+  console.log("Serve front end files in production.");
   // serve front end files
   app.use(express.static(path.join(__dirname, "../client/build")));
   // /* is used to capture client routing like news/news_id
