@@ -2,7 +2,7 @@
 
 <a href="https://news-monitor-app.herokuapp.com" target="_blank"><img src="https://heroku-badge.herokuapp.com/?app=news-monitor-app" alt="heroku badge" /></a>
 
-[Heroku Link](https://news-monitor-app.herokuapp.com)
+[Heroku Link](https://news-monitor-app.herokuapp.com){:target="_blank"}
 
 News Monitor App is a web app that displays the news content, word cloud of the news and related twitter comments, and the comments frequency each hour.
 
