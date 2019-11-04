@@ -1,4 +1,5 @@
 server/mongodb/json/
+server/fakenews-mongodb-backup/
 node_modules
 client/build/*
 .env
